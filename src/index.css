@@ -1,0 +1,39 @@
+*  {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif Khojki', serif;
+}
+
+html,
+body {
+  background-color: #181818;
+  color: white;
+
+  min-height: 100vh;
+  height: 100%;
+
+}
+
+img {
+  max-width: 100%;
+  width: 80%;
+}
+
+button {
+  border: none;
+  width: 5rem;
+  height: 2rem;
+  border-radius: .2rem;
+
+  color: white;
+  font-weight: 500;
+  
+
+  cursor: pointer;
+  background-image: linear-gradient(to right, rgba(11, 146, 11, 0.877), rgb(0, 0, 255));
+}
+
+button:hover {
+  transition: 500ms;
+  background-image: linear-gradient(to right, rgb(0, 0, 255), rgba(11, 146, 11, 0.877));
+};
